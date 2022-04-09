@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 32px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #828282;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 600px;
+  background-color: #696969;
+  border-radius: 50%;
+}
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  background-color: #333;
+  border-radius: 50%;
+}
+.clock span {
+  position: absolute;
+  color: aliceblue;
+  inset: 120px;
+  text-align: center;
+  transform: rotate(calc(30deg * var(--i)));
+}
+
+.container .circle {
+  position: absolute;
+  height: 250px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nokta {
+  height: 18px;
+  width: 18px;
+  background-color: #bbb;
+  position: absolute;
+  border-radius: 50%;
+  z-index: 14;
+}
+
+.handle {
+  --rotation: 0;
+  position: absolute;
+  bottom: 50%;
+  width: 8px;
+  background-color: yellow;
+  transform-origin: bottom;
+  transform: scale(0.5);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.akrep {
+  height: 18%;
+  background-color: #bbb;
+  z-index: 10;
+}
+.yelkovan {
+  height: 23%;
+  background-color: green;
+  z-index: 12;
+}
+.saniye {
+  z-index: 13;
+  height: 26%;
+}

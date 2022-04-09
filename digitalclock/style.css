@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2.9rem;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  height: 80vh;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#date {
+  margin-bottom: 2%;
+  color: #b5b5b5;
+}
+.tarih {
+  font-size: 2.3rem;
+  padding: 10px;
+}
+.gun{
+  font-size: 32px;
+}
+.container div {
+  color: #333;
+  background-color: #b5b5b5;
+  border-radius: 35px;
+  display: block;
+  text-align: center;
+  width: 160px;
+  -webkit-box-reflect: below 15px
+    linear-gradient(transparent, rgba(176, 255, 170, 0.1));
+  /* box-shadow: 5px 5px 5px gray, -5px -5px 15px gray; */
+}
+
+.container .colon {
+  color: #b5b5b5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1px;
+  padding: 0 19px;
+  -webkit-box-reflect: below 15px
+    linear-gradient(transparent, rgba(176, 255, 170, 0.1));
+}
+
+::selection {
+  background-color: cornflowerblue;
+}
