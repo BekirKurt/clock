@@ -1,6 +1,6 @@
 # Clock
 I created analog and digital clock using HTML, CSS and Javascript.
-<br> 
+<br> <hr>
 
 # Analog Clock
 <br>
